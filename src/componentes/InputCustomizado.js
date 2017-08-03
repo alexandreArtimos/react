@@ -26,7 +26,7 @@ export default class InputCustomizado extends Component {
     }.bind(this));
 
     PubSub.subscribe("limpa-erros", function(topico) {
-      this.setState({msgErro:''});
+            this.setState({msgErro:''});
 
     }.bind(this));
   }
